@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact_form {
+  width: 30rem;
+  background: #eee;
+  margin: 5rem auto;
+  padding: 2rem;
+  box-shadow: 2px 2px 2px 2px #999;
+}
+
+.contact_form__title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.contact_form__inputGroup {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.contact_form__inputGroup label {
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.contact_form__inputGroup input {
+  padding: 15px 17px;
+  width: 100%;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.contact_form__submitBtn {
+  display: block;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #333;
+  color: #f4f4f4;
+  padding: 10px 17px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.contact_form__submitBtn:hover {
+  background: #e9e9e9;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.sent_pageBox {
+  width: 30rem;
+  background: #eee;
+  margin: 5rem auto;
+  padding: 2rem;
+  box-shadow: 2px 2px 2px 2px #999;
+}
+
+.sent_pageBox__title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sent_pageBox__Link {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #333;
+  color: #f4f4f4;
+  padding: 10px 17px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.sent_pageBox__Link:hover {
+  background: #e9e9e9;
+  color: #333;
+  border: 1px solid #333;
+}
